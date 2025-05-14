@@ -9,9 +9,15 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
+        <p> 
+          Software Engineering Student at 1337 - 42 Network Morocco   
+          - Low-level enthusiast - Backend lover - Web explorer 
+          - Currently diving deeper into C, Unix, DevOps, and full-stack development
+          </p>
       </section>
+      
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
